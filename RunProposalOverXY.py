@@ -58,7 +58,7 @@ f=open("/lcrc/project/NEXT/data/Muon-Rate-Measurement/SmallerNotebooksChecked/ro
 rocklength=pickle.load(f)                                                                                    
 f.close() 
 
-f=open("/lcrc/project/NEXT/data/Muon-Rate-Measurement/SmallerNotebooksChecked/rocklength_to_detector.pkl",'rb')                      
+f=open("/lcrc/project/NEXT/data/Muon-Rate-Measurement/SmallerNotebooksChecked/ExtendedMountain.pkl",'rb')                      
 depth=pickle.load(f)    
 f.close()                                                  
 
