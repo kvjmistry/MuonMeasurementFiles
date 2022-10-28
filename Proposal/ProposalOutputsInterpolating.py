@@ -86,7 +86,7 @@ for energy in energies:
     intepercs = np.array(intepercs)      
     intepercs=intepercs.reshape(len(np.unique(intexs)), len(np.unique(inteys)))
 
-                                                                                                  
+
     for i in range(0,len(intexs)):
         x=np.array(intexs).flatten()[i]
         y=np.array(inteys).flatten()[i]
